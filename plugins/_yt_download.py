@@ -5,19 +5,6 @@ from youtubesearchpython import VideosSearch
 from pytube import YouTube
 import os
 
-bot = Client(
-    "bot",
-    api_id=7263889,
-    api_hash="89c452ed35062d2d31922e6d8d069c90",
-    bot_token="2031117879:AAFVvpmYOPo2u5qRJJTqG0OTp2DLIRu1rEw"
-)
-
-Client(
-    "bot",
-    api_id=7263889,
-    api_hash="89c452ed35062d2d31922e6d8d069c90",
-    bot_token="2031117879:AAFVvpmYOPo2u5qRJJTqG0OTp2DLIRu1rEw"
-)
 
 START_BUTTONS = InlineKeyboardMarkup(
     [
