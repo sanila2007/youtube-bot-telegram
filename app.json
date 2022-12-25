@@ -1,15 +1,14 @@
 {
     "name": "YouTube Video Download Bot",
     "description": "Telegram bot that can search and download youtube videos, playlists.",
-    "repository": "https://github.com/sanila2007/Sanila-Assistant-Bot",
+    "repository": "https://github.com/sanila2007/YouTube_bot_telegram",
     "logo": "https://telegra.ph/file/f7dc9203585394d0595b1.jpg",
     "keywords": [
-        "feedback bot",
-        "feedback collector",
+        "youtube bot",
+        "video downloader",
         "pyrogram bot",
-        "report collector",
-        "Telegram bot",
-        "assistant bot"
+        "playlists downloader",
+        "Telegram bot"
     ],
     "env": {
         "API_ID": {
@@ -22,18 +21,6 @@
         },
         "BOT_TOKEN": {
             "description": "Get from Telegram's @BotFather",
-            "required": true
-        },
-        "LOG_CHANNEL": {
-            "description": "Create a public channel and enter the username here. NOT THE LINK MUST BE THE USERNAME!!",
-            "required": true
-        },
-        "FEEDBACK_GROUP": {
-            "description": "Create a public group and enter the username here. NOT THE LINK MUST BE THE USERNAME!!",
-            "required": true
-        },
-        "ADMIN": {
-            "description": "Enter the username of the admin",
             "required": true
         }
     },
