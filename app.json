@@ -1,0 +1,51 @@
+{
+    "name": "YouTube Video Download Bot",
+    "description": "Telegram bot that can search and download youtube videos, playlists.",
+    "repository": "https://github.com/sanila2007/Sanila-Assistant-Bot",
+    "logo": "https://telegra.ph/file/f7dc9203585394d0595b1.jpg",
+    "keywords": [
+        "feedback bot",
+        "feedback collector",
+        "pyrogram bot",
+        "report collector",
+        "Telegram bot",
+        "assistant bot"
+    ],
+    "env": {
+        "API_ID": {
+            "description": "Get from my.telegram.org/apps",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Get from my.telegram.org/apps",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "Get from Telegram's @BotFather",
+            "required": true
+        },
+        "LOG_CHANNEL": {
+            "description": "Create a public channel and enter the username here. NOT THE LINK MUST BE THE USERNAME!!",
+            "required": true
+        },
+        "FEEDBACK_GROUP": {
+            "description": "Create a public group and enter the username here. NOT THE LINK MUST BE THE USERNAME!!",
+            "required": true
+        },
+        "ADMIN": {
+            "description": "Enter the username of the admin",
+            "required": true
+        }
+    },
+    "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
