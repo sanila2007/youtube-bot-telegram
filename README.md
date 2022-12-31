@@ -47,5 +47,7 @@ Heroku
 
 - [Sanila Ranatunga](https://github.com/sanila2007)
 
+Any issues with this? Feel free to open a [New Issue](https://github.com/sanila2007/YouTube_bot_telegram/issues)
+
 > Made with 💞 by <a href="https://github.com/sanila2007/YouTube_bot_telegram">@sanila2007</a>
  
