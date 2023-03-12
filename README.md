@@ -26,6 +26,7 @@
 - Search for YouTube videos
 - Download YouTube videos
 - Download videos from playlists
+- Download videos from playlists in audio format
 
 ## Deploy
 
