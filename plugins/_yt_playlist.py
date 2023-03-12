@@ -1,3 +1,5 @@
+# Copyright ©️ 2023 Sanila Ranatunga. All Rights Reserved
+
 from pytube import Playlist
 from pyrogram import Client, filters
 from pyrogram.errors.exceptions import MessageIdInvalid
