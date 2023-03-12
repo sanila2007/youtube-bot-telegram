@@ -1,3 +1,5 @@
+# Copyright ©️ 2023 Sanila Ranatunga. All Rights Reserved
+
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.types import InlineQueryResultArticle, InputTextMessageContent
